@@ -1,8 +1,8 @@
 function FindProxyForURL (url, host) {
 
   const domains = [
-    '.sonarqube.singlife.com',
-    '.teamcity.singlife.com',
+    'sonarqube.singlife.com',
+    'teamcity.singlife.com',
   ];
 
   if (domains.some(dnsDomainIs.bind(null, host))) {
