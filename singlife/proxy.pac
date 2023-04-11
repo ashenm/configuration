@@ -1,6 +1,7 @@
 function FindProxyForURL (url, host) {
 
   const domains = [
+    'gitlab.tooling.prd.intranet.singlife.com',
     'sonarqube.singlife.com',
     'teamcity.singlife.com',
   ];
